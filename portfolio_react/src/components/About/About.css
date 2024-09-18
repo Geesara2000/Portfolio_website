@@ -9,6 +9,7 @@
 
 .about-title{
   position: relative;
+  margin-bottom: 50px;
 }
 
 .about-title h1{
@@ -27,6 +28,11 @@
 .about-sections{
   display: flex;
   gap: 80px;
+}
+
+.about-left img{
+  width: 500px;
+  height: 600px;
 }
 
 .about-right{
@@ -74,4 +80,40 @@
   height: 8px;
   border-radius: 50px;
   background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+}
+
+@media(max-width:768px){
+  .about{
+    gap: 80px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .about-title h1{
+    font-size: 50px;
+    padding: 0;
+  }
+  .about-title img{
+    width: 130px;
+    right: -20px;
+  }
+  .about-sections{
+    flex-direction: column;
+  }
+  .about-left{
+    display: none;
+  }
+  .about-para{
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .about-skill{
+    gap: 20px;
+    align-items: center;
+  }
+  .about-skill p{
+    font-size: 20px;
+  }
+  .about-skill hr{
+    height: 6px;
+  }
 }

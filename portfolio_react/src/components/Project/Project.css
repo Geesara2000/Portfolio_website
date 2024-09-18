@@ -9,6 +9,7 @@
 
 .project-title{
   position: relative;
+  margin-bottom: 50px;
 }
 
 .project-title h1{
@@ -61,4 +62,35 @@
 .project-showmore:hover{
   gap: 30px;
   transition: 0.6s;
+}
+
+@media(max-width:768px){
+  .project{
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .project-title h1{
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .project-title img{
+    width: 130px;
+    margin-right: -20px;
+  }
+  .project-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .project-container img{
+    width: 100%;
+    height: 100%;
+  }
+  .project-showmore{
+    padding: 20px 40px;
+    font-size: 18px;
+    margin: 50px auto;
+    cursor: pointer;
+  }
 }

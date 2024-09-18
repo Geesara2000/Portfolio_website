@@ -5,3 +5,9 @@
   justify-content: center;
   padding: 40px;
 }
+
+@media(max-width:768px){
+  .footer{
+    margin: 50px 70px;
+  }
+}
