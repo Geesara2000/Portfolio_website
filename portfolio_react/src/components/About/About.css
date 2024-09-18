@@ -14,7 +14,7 @@
 
 .about-title h1{
   padding: 0px 30px;
-  font-size: 80px;
+  font-size: 65px;
   font-weight: 600;
 }
 
@@ -31,8 +31,8 @@
 }
 
 .about-left img{
-  width: 500px;
-  height: 600px;
+  width: 450px;
+  height: 500px;
 }
 
 .about-right{
@@ -45,8 +45,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
 }
 
 .about-skills{
@@ -69,7 +68,7 @@
 
 .about-skill p{
   min-width: 150px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 

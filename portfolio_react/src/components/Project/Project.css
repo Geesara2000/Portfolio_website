@@ -14,7 +14,7 @@
 
 .project-title h1{
   padding: 0px 30px;
-  font-size: 80px;
+  font-size: 65px;
   font-weight: 600;
 }
 
@@ -52,7 +52,7 @@
   border-radius: 50px;
   border: 2px solid white;
   padding: 30px 60px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   margin: 80px;
   transition: 0.6s;

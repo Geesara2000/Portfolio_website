@@ -9,11 +9,12 @@
 
 .contact-title{
   position: relative;
+  margin-top: -70px;
 }
 
 .contact-title h1{
   padding: 0px 30px;
-  font-size: 80px;
+  font-size: 65px;
   font-weight: 600;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .contact-left h1{
-  font-size: 80px;
+  font-size: 65px;
   font-weight: 700;
   background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
   background-clip: text;
@@ -56,7 +57,7 @@
   flex-direction: column;
   gap: 30px;
   color: #D8D8D8;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .contact-detail{
@@ -74,7 +75,7 @@
 
 .contact-right label{
   color: #D8D8D8;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -106,7 +107,7 @@
   color: white;
   border-radius: 50px;
   background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-  font-size: 22px;
+  font-size: 20px;
   padding: 20px 60px;
   margin-bottom: 50px;
   cursor: pointer;
